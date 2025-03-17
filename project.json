@@ -1,7 +1,7 @@
 {
   "name": "Finance_Reports_Dispatch",
   "projectId": "c2282f1e-aef3-4e20-b63f-1b84d2bd12e7",
-  "description": "Distributes a queue item for each project manager in the company. That serves execute process the builds a report for each manager.",
+  "description": "DispatchQueueItem.s-Global",
   "main": "Main.xaml",
   "dependencies": {
     "RPA_Template": "[2024.11.8]",
@@ -11,7 +11,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.7.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
