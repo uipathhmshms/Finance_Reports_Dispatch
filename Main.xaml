@@ -27,7 +27,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1524,827</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1411,702</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="136">
@@ -732,7 +732,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <Transition.Condition>[String.IsNullOrEmpty(GlobalVariables.str_JobEndedReason) AndAlso dt_dataForBulkAddQueueITems IsNot Nothing AndAlso dt_dataForBulkAddQueueITems.Rows.Count&gt;0 AndAlso out_list_JobBusinessExceptions.Count=0 AndAlso out_list_JobSystemExceptions.Count=0]</Transition.Condition>
                   <Transition.To>
-                    <State x:Name="__ReferenceID19" DisplayName="State_Bulk Add Queue Items" sap:VirtualizedContainerService.HintSize="1057,3599" sap2010:WorkflowViewState.IdRef="State_13">
+                    <State x:Name="__ReferenceID19" DisplayName="State_Bulk Add Queue Items" sap:VirtualizedContainerService.HintSize="219,92" sap2010:WorkflowViewState.IdRef="State_13">
                       <State.Entry>
                         <Sequence DisplayName="Seq_Add JobGUID column and bulk add queue items" sap:VirtualizedContainerService.HintSize="1011,3238" sap2010:WorkflowViewState.IdRef="Sequence_76">
                           <sap:WorkflowViewStateService.ViewState>
